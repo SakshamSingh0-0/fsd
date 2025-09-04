@@ -1,0 +1,28 @@
+#container-box{
+    display: flex;
+    width: 600px;
+    height: 150px;
+    background-color: bisque;
+    border: 2px solid black;
+    flex-direction: row;
+    gap: 3px;
+}
+.box{
+    width: 25%;
+    height: auto;
+    border: 1px solid black;
+}
+.box:hover{
+    color: lightblue;
+    cursor: pointer;
+}
+.box:nth-child(1),
+.box:nth-child(3){
+    background-color:lightyellow;
+}
+img{
+    width: 100%;
+    height: 100px;
+}
+
+
