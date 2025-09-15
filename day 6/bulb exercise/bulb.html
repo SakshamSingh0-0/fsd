@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bulb.css">
+    <script>
+        function colorhandler(color){
+            document.getElementById("bulb").style.backgroundColor=color;
+            console.log(bulb);
+            console.log(color);
+        }
+        </script>
+</head>
+<body>
+    <div id="bulb"></div>
+    <input type="button" value="red" onclick="colorhandler('red')">
+    <input type="button" value="green" onclick="colorhandler('green')">
+    <input type="button" value="blue" onclick="colorhandler('blue')">
+    <input type="button" value="yellow" onclick="colorhandler('yellow')">
+</body>
+</html>
