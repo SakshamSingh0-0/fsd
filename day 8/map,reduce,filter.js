@@ -4,6 +4,7 @@ const mapOutput = arr1.map((val)=>val*2);
 console.log(mapOutput);
 
 const sumOutput = arr1.reduce(
+    // previous value, current value
     (acc,val)=>{
         acc+=val;
         return acc;
